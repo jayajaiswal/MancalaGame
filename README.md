@@ -18,9 +18,11 @@ To run the application run the below command-
 ```  
 mvn clean install  
 ```
-and then run from the SpringBootApplication.java
+and then run from the MancalaApplication.java
 
 ### Swagger
+
+You can also see the swagger document here-
 ```  
 http://localhost:3000/documentation  
 ```   
@@ -33,7 +35,7 @@ returns new game board if gameId is null or not exist, otherwise returns existin
 ```  
 GET: http://localhost:3000/move (parameter: movement object)
 ```  
-returns calculated game board if movement is proper
+returns calculated game board if movement is valid
 
 ### Front-end
 From your browser, you can access below URI and enjoy playing this game.
